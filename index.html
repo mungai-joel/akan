@@ -6,31 +6,39 @@
 </head>
 <body>
     <h1>AKAN NAME GENERATOR</h1>
-    <p>Please enter your details</p>
-    <label>Birth year</label>
-    <input type="year" id="birthyear" value="Enter your birth year">
+        <p>Please enter your details</p>
+            <label>Birth year</label>
+                <input type="year" id="birthyear" class="form-control" value="">
+    <br>
     
-    <label>Birth century</label>
-    <input type="number" id="birthcentury" value="Entercentury eg. 1996('19'century)">
-    
-    <label>Birth month</label>
-    <input type="year" id="birthmonth" value="Enter your birth month">
-    
-    <label>Birth date</label>
-    <input type="year" id="birthdate" value="Enter your birth date">
-    
-    <label class="radio">Gender</label>
-    <div class="check">
-    <input type="radio" class = "radio-form" value = "Male"id="gender">Male
-    </div>
+            <label>Birth century(eg.'20' for 2001)</label>
+                <input type="number" id="birthcentury" class="form-control" value="">
+    <br>
 
-    <div class="check">
-    <input type="radio" class = "radio-form" value = "Female" id="gender2">Female
-    </div>
-    <div class="button">
-        <input type="button" onclick="myInput();" value="submit gender">
-    </div>
-    <p id="result"></p>
+            <label>Birth month</label>
+                <input type="year" id="birthmonth" class ="form-control" value="">
+    <br>
+
+            <label>Birth date</label>
+                <input type="year" id="birthdate" class="form-control" value="">
+    <br>
+
+            <label class="radio-label">Gender:</label>
+            <div class="check">
+                <input type="radio" class = "radio-form" value = "Male"id="gender">Male
+            </div>
+    <br>
+
+
+            <div class="check">
+                <input type="radio" class = "radio-form" value = "Female" id="gender2">Female
+            </div>
+    <br>
+            <div class="button">
+                <input type="button" onclick="myInput();" value="submit gender">
+            </div>
+    <br>
+        <p id="result"></p>
 
 
     
