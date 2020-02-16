@@ -22,7 +22,7 @@ function input(){
     
     var dateofbirth = Math.floor(generate);
         
-        alert(dateofbirth);
+        alert("its " + dateofbirth);
     
     var mName = maleNames[dateofbirth - 1];
         var days = day[dateofbirth - 1];
