@@ -1,4 +1,8 @@
-.body{
-background-image:none
-    
+body{
+    background-image: url(https://bit.ly/321yPdH);
+    background-repeat: no-repeat;
+}
+.jumbotron{
+background-color: rgb(160, 189, 189);
+}
 }
