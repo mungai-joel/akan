@@ -10,9 +10,9 @@ function input(){
     
     var generate = parseInt(((birthCentury/4)-2*birthCentury-1)+((5*birthYear/4)) + ((26*(birthMonth+1)/10))+birthDate)%7;
     
-    var gender1 = document.getElementById("gender");
+    var gender1 = document.getElementById("gender").value;
     
-    var gender2 = document.getElementById("gender1");
+    var gender2 = document.getElementById("gender1").value;
     
     var maleNames =["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
     
@@ -20,11 +20,11 @@ function input(){
     
     var day = ["Sunday", "Monday", "Tuesday", "Wensday", "Thursday", "Friday", "Sunday"];
     
-    var dateofbirth = Math.floor(generate);
+    var dayofbirth = Math.floor(generate);
 
     var listofDays = [31,28,31,30,31,30,31,31,30,31,30,31];
 
-    console.log(dayofbirth);
+    //console.log(dayofbirth);
     //var leapyear = ((birthyear % 4) && (birthyear % 100) || !(birthyear % 400));
     
     
@@ -40,7 +40,7 @@ function input(){
 
 
 
-        document.getElementById("result").innerHTML(" Since you were born on " + days + " Your name is " + mName);
+        document.getElementById("result").innerHTML = (" Since you were born on " + days + " Your name is " + mName);
      
            }
     else if (gender2.checked === true) {
@@ -70,4 +70,3 @@ function input(){
          };
      
      
-};
