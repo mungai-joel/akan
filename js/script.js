@@ -40,13 +40,13 @@ function input(){
 
 
 
-        document.getElementById("result").innerHTML = (" Since you were born on " + days + " Your name is " + mName);
+        document.getElementById("result").innerHTML = (" Since you were born on " + days + " Your Akan name is " + mName);
      
            }
     else if (gender2.checked === true) {
      
      
-        document.getElementById("result").innerHTML=(" Since you were born on " + days + " Your name is " + fName);
+        document.getElementById("result").innerHTML=(" Since you were born on " + days + " Your Akan name is " + fName);
            };
      
              if(birthMonth == 1 || birthMonth > 2){
