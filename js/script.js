@@ -33,7 +33,7 @@ function input(){
 
 
     var fName = femaleNames[dayofbirth - 1];
-        var days =day[dayofbirth - 1];
+        var days2 =day[dayofbirth - 1];
 
 
     if (gender1.checked === true) {
@@ -46,7 +46,7 @@ function input(){
     else if (gender2.checked === true) {
      
      
-        document.getElementById("result").innerHTML=(" Since you were born on " + days + " Your Akan name is " + fName);
+        document.getElementById("result").innerHTML=(" Since you were born on " + days2 + " Your Akan name is " + fName);
            };
      
              if(birthMonth == 1 || birthMonth > 2){
