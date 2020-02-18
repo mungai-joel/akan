@@ -1,20 +1,28 @@
-{AKAN NAME GENERATOR}
-By {List of contributors}
-LIVE LINK:
+# Akan Name Generator
+#### BY Joel Kibugi Mungai
+## Description
+
+
+#{List of contributors}
+1
+## LIVE LINK:
 https://mungai-joel.github.io/akan
 Description
 {A web application that generates AKAN NAME of which are names derived from Ghanian culture you,feed the web application data : Date of birth and Gender the it generates the name }
 
-Setup/Installation Requirements
+## Setup/Installation Requirements
 internet connection A device that can access the internet
 
-Technologies Used
+## Technologies Used
 JAVASCRIPT HTML Custom CSS Bootstrap
 
-Support and contact details
+## Support and contact details
 mungaijoel123@gmail.com
-
-License
+## DBB
+1.Web App Displays Form For Entering Date and Gender *INPUT: "User's Birthdate Entered" *INPUT: "User's Gender Entered" *OUTPUT: "Displays User's Akan Name According to Submitted Date and Gender"
+2.Web App Displays an Error Message if Date Input Left Blank *INPUT: "" *OUTPUT: "Displays Error Message"
+3.Web App Displays an Error Message if Gender Not Chosen *INPUT: "" *OUTPUT: "Display an Error Message"
+## License
 MIT License
 
 Copyright (c) [2019] [Joel Mungai]

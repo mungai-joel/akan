@@ -1,8 +1,15 @@
 body{
-    background-image: url(https://bit.ly/321yPdH);
+    background-image: url(https://media.gettyimages.com/photos/independence-arch-accra-ghana-picture-id979874264?s=2048x2048);
     background-repeat: no-repeat;
 }
 .jumbotron{
 background-color: rgb(160, 189, 189);
 }
-
+span{
+    color: rgb(21, 162, 197);
+    text-decoration-color: blueviolet;
+}
+span:hover{
+    text-decoration: underline;
+    text-decoration: blue;
+}
