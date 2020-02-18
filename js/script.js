@@ -9,7 +9,7 @@ function getAkanName(){
     if(myBirthday === ""){
         document.getElementById('message').innerHTML = "<div> You Didn't Submit a Valid Date!</div>";
     }
-    //console.log(dateOfBirth>=new Date());
+    //checking if date given is not greater than actual date.
 
     if (dateOfBirth >= new Date()){
         console.log(myBirthday,new Date());
