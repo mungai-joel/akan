@@ -9,14 +9,22 @@ function getAkanName(){
     if(myBirthday === ""){
         document.getElementById('message').innerHTML = "<div> You Didn't Submit a Valid Date!</div>";
     }
+    //console.log(dateOfBirth>=new Date());
+
+    if (dateOfBirth >= new Date()){
+        console.log(myBirthday,new Date());
+        document.getElementById('message').innerHTML ="<span>Cannot assign names to unborns</span>";
+
+               }
     else {
         for(var i=0;i<myGender.length;i++){
             if(myGender[i].checked){
                 if(myGender[i].value === "Male"){
                     document.getElementById('message').innerHTML = " Born on a <span>" + days[dayOfTheWeek] + "</span>, Your Akan Name's <span>" + maleAkanNames[dayOfTheWeek] + "</span>";
-                }
+                        
+            }
                 else {
-                    document.getElementById('message').innerHTML = " Born on a <span>" + days[dayOfTheWeek] + "</span>, Your Akan Name's <span>" + femaleAkanNames[dayOfTheWeek] + "</span>";
+                    document.getElementById('message').innerHTML ="Born on a <span>" + days[dayOfTheWeek] + "</span>, Your Akan Name's <span>" + femaleAkanNames[dayOfTheWeek] + "</span>";
                 }
                 break;
             }
