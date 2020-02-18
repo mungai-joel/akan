@@ -19,9 +19,9 @@ JAVASCRIPT HTML Custom CSS Bootstrap
 ## Support and contact details
 mungaijoel123@gmail.com
 ## DBB
-1.Web App Displays Form For Entering Date and Gender *INPUT: "User's Birthdate Entered" *INPUT: "User's Gender Entered" *OUTPUT: "Displays User's Akan Name According to Submitted Date and Gender"
-2.Web App Displays an Error Message if Date Input Left Blank *INPUT: "" *OUTPUT: "Displays Error Message"
-3.Web App Displays an Error Message if Gender Not Chosen *INPUT: "" *OUTPUT: "Display an Error Message"
+* Web App Displays Form For Entering Date and Gender *INPUT: "User's Birthdate Entered" *INPUT: "User's Gender Entered" *OUTPUT: "Displays User's Akan Name According to Submitted Date and Gender"
+* Web App Displays an Error Message if Date Input Left Blank *INPUT: "" *OUTPUT: "Displays Error Message"
+* Web App Displays an Error Message if Gender Not Chosen *INPUT: "" *OUTPUT: "Display an Error Message"
 ## License
 MIT License
 
